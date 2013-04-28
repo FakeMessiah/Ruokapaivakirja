@@ -1,2 +1,4 @@
-#[Ruokapäiväkirja][http://hieta.fi/ruokapaivakirja]
+[Ruokapäiväkirja](http://hieta.fi/ruokapaivakirja)
+==================================================
+
 Jooh elikkäs

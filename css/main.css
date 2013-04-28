@@ -21,6 +21,8 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    margin: 0;
+    padding: 0;
 }
 
 /*
@@ -93,9 +95,24 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#main-wrapper {
+	margin: 0;
+	padding: 0;
+}
 
+#main-header {
+	height: 10em;
+	background: #D63333;
+	border-bottom: 2px solid #7A0000;
+	margin: 0;
+}
 
-
+#main-header h1 {
+	color: white;
+	font-size: 4em;
+	text-shadow: 2px 2px 0 #000000;
+	line-height: 1em;
+}
 
 
 
