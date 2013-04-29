@@ -23,6 +23,8 @@ body {
     line-height: 1.4;
     margin: 0;
     padding: 0;
+    background: #333333;
+    height: 100%;
 }
 
 /*
@@ -96,29 +98,93 @@ textarea {
    ========================================================================== */
 
 #main-wrapper {
-	margin: 0;
-	padding: 0;
+	min-width: 40em;
+	min-height: 50em;
 }
 
+/*
+ *  --------------- Header ------------------
+ */
+
 #main-header {
-	height: 10em;
+	min-height: 10em;
 	background: #D63333;
 	border-bottom: 2px solid #7A0000;
 	margin: 0;
+	padding: 1em 4em 0 4em;
 }
 
 #main-header h1 {
 	color: white;
 	font-size: 4em;
-	text-shadow: 2px 2px 0 #000000;
+	text-shadow: -1px -1px 1px #7A0000, 1px 1px 1px #E68080;
 	line-height: 1em;
+	font-weight: bold;
 }
 
+/*
+ *  ----------------  Nav  -------------------
+ */
 
+#main-nav {
+	padding: 0;
+}
 
+#main-nav ul {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
 
+#main-nav li {
+	display: inline-block;
+	margin: 0;
+	height: 100%;
+}
 
+#main-nav a {
+	color: #222;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 2em;
+	height: 44px;
+	padding: 0 1em;
+	border-radius: 4px 4px 0 0;
+}
 
+#main-nav a.current {
+	background: #FFFFFF;
+	border: 2px solid #7A0000;
+	border-bottom: none;
+	position: relative;
+	top: 2px;
+	left: 0;
+	height: 46px;
+}
+
+/*
+ *  ---------------- Content ------------------
+ */
+
+#main-content {
+	min-height: 30em;
+	background: #FFFFFF;
+	margin: 0;
+	padding: 2em;
+}
+
+/*
+ *  --------------- Footer -----------------
+ */
+
+#main-footer {
+	min-height: 10em;
+	background-color: #333333;
+	padding: 1em 2em;
+	border-top: 2px solid #555555;
+	color: #000000;
+	font-size: 1.5em;
+}
 
 
 
